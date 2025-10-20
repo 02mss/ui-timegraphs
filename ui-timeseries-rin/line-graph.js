@@ -59,6 +59,12 @@ function createLineChart(labels, data) {
           },
           beginAtZero: true
         }
+      },
+      plugins: {
+        title: {
+          display: true,
+          text: 'Values over Time'
+        }
       }
     }
   });
